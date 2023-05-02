@@ -15,6 +15,8 @@
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
+    "deepai": "^1.0.21",
+    "dotenv": "^16.0.3",
     "openai": "^3.2.1"
   }
 }
