@@ -1,79 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="public/css/index.css" />
-        <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Montserrat"
-        />
-        <link rel="icon" type="image/png" href="logo.webp" />
-        <title>AIInterface</title>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="public/css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="icon" type="image/png" href="logo.webp">
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+/>
+    <title>Deepfake live</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img
+                src="public/img/URCA.jpg"
+                alt="URCA logo"
+                class="logo"
+            />
+            <a href="index.html">Accueil</a>
+            <a href="textToText.html">Text to text</a>
+            <a href="deepfake_live.html">Deepfake live</a>
+            <a href="textToImage.html">Text to image</a>
+            <a href="colorisation.html">Colorisation</a>
+        </div>
+     
+        <div class="block">
+            <h2>Webcam</h2>
+            <div class="line"></div>
+            <canvas width="720" height="340"></canvas>
 
-        <link
-            rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        />
-    </head>
-    <body>
-        <!-- Section qui prend toute la page -->
-        <div class="d-flex flex-column min-vh-100">
-    
-            <div class="wrapper flex-grow-1">
-                <div class="header">
-                    <img
-                        src="public/img/URCA.jpg"
-                        alt="URCA logo"
-                        class="logo"
-                    />
-                    <a href="index.html">Accueil</a>
-                    <a href="textToText.html">Text to text</a>
-                    <a href="deepfake_live.html">Deepfake live</a>
-                    <a href="textToImage.html">Text to image</a>
-                    <a href="colorisation.html">Colorisation</a>
-                </div>
-                <section  class="min-vh-100 d-flex align-items-stretch">
-                <div class="home">
-                    <div class="desc">
-                        <div class="block">
-                            <h2>Text to text</h2>
-                            <div class="line"></div>
-                            <p>
-                                Découvrez les différentes IA pour génerer du
-                                texte.
-                            </p>
-                            <div class="link">
-                                <a href="texttotext.html">Aller ➝</a>
-                            </div>
-                            <h2>Deep fake live</h2>
-                            <div class="line"></div>
-                            <p>Un deepfake de vous en temp réel.</p>
-                            <div class="link">
-                                <a href="deepfake_live.html">Aller ➝</a>
-                            </div>
-
-                            <h2>Text to image</h2>
-                            <div class="line"></div>
-                            <p>Générez des images à partir de texte.</p>
-                            <div class="link">
-                                <a href="textToImage.html">Aller ➝</a>
-                            </div>
-                            <h2>Colorisation</h2>
-                            <div class="line"></div>
-                            <div class="link">
-                                <a href="colorisation.html">Aller ➝</a>
-                            </div>
-                            <p>Colorisez vos photos en noir et blanc.</p>
-                        </div>
-                    </div>
-                    <img src="public/img/image.png" class="picture" />
-                </div>
-            </div>
-        </section>
+            <h2>Deepfake</h2>
+            <div class="line"></div>
+            <canvas width="720" height="340"></canvas>
+        </div>
     </div>
-    </body>
-
+</body>
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-light text-muted">
         <hr class="hr hr-blurry" />
